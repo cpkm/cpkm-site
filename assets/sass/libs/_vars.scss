@@ -26,7 +26,7 @@
 		weight-bold:		700
 	);
 
-// Palette.
+// Palette. #4acaa8
 	$palette: (
 		bg:					#fff,
 		fg:					#888,
@@ -40,10 +40,10 @@
 		border3-bg:			#eaeaea,
 
 		accent1: (
-			bg:				#4acaa8,
+			bg:				#4AC3CA,
 			fg-bold:		#ffffff,
-			fg:				mix(#4acaa8, #ffffff, 25%),
-			fg-light:		mix(#4acaa8, #ffffff, 40%)
+			fg:				mix(#4AC3CA, #ffffff, 25%),
+			fg-light:		mix(#4AC3CA, #ffffff, 40%)
 		),
 
 		accent2: (
@@ -54,10 +54,10 @@
 		),
 
 		header: (
-			bg:				#4acaa8,
+			bg:				#4AC3CA,
 			fg-bold:		#ffffff,
-			fg:				mix(#4acaa8, #ffffff, 25%),
-			fg-light:		mix(#4acaa8, #ffffff, 40%),
-			border:			mix(#4acaa8, #ffffff, 90%)
+			fg:				mix(#4AC3CA, #ffffff, 25%),
+			fg-light:		mix(#4AC3CA, #ffffff, 40%),
+			border:			mix(#4AC3CA, #ffffff, 90%)
 		)
 	);
