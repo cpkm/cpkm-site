@@ -454,6 +454,16 @@
 		}
 	}
 
+	.icon-b {
+		@include icon-b;
+		border-bottom: none;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+	}
+
 /* Image */
 
 	.image {

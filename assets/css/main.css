@@ -1388,7 +1388,7 @@ textarea {
   .select-wrapper:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
+    font-family: 'Font Awesome 5 Free';
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
@@ -1443,7 +1443,7 @@ input[type="radio"] {
     input[type="radio"] + label:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
+      font-family: 'Font Awesome 5 Free';
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -1525,11 +1525,25 @@ input[type="radio"] + label:before {
   .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
+    font-family: 'Font Awesome 5 Free';
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
   .icon > .label {
+    display: none; }
+
+.icon-b {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative; }
+  .icon-b:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important; }
+  .icon-b > .label {
     display: none; }
 
 /* Image */
@@ -1601,7 +1615,7 @@ ul {
       ul.feature-icons li:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
-        font-family: FontAwesome;
+        font-family: 'Font Awesome 5 Free';
         font-style: normal;
         font-weight: normal;
         text-transform: none !important; }
@@ -2133,7 +2147,7 @@ input[type="button"],
       #titleBar .toggle:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
-        font-family: FontAwesome;
+        font-family: 'Font Awesome 5 Free';
         font-style: normal;
         font-weight: normal;
         text-transform: none !important; }
@@ -2295,4 +2309,4 @@ input[type="button"],
   .button {
     padding: 0; } }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=maint.css.map */
