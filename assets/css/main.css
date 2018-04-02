@@ -1390,7 +1390,7 @@ textarea {
     -webkit-font-smoothing: antialiased;
     font-family: 'Font Awesome 5 Free';
     font-style: normal;
-    font-weight: normal;
+    font-weight: 900;
     text-transform: none !important; }
   .select-wrapper:before {
     color: #e4e4e4;
@@ -1445,7 +1445,7 @@ input[type="radio"] {
       -webkit-font-smoothing: antialiased;
       font-family: 'Font Awesome 5 Free';
       font-style: normal;
-      font-weight: normal;
+      font-weight: 900;
       text-transform: none !important; }
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
@@ -1527,7 +1527,7 @@ input[type="radio"] + label:before {
     -webkit-font-smoothing: antialiased;
     font-family: 'Font Awesome 5 Free';
     font-style: normal;
-    font-weight: normal;
+    font-weight: 900;
     text-transform: none !important; }
   .icon > .label {
     display: none; }
@@ -1617,7 +1617,7 @@ ul {
         -webkit-font-smoothing: antialiased;
         font-family: 'Font Awesome 5 Free';
         font-style: normal;
-        font-weight: normal;
+        font-weight: 900;
         text-transform: none !important; }
       ul.feature-icons li:before {
         background: #4AC3CA;
@@ -2149,7 +2149,7 @@ input[type="button"],
         -webkit-font-smoothing: antialiased;
         font-family: 'Font Awesome 5 Free';
         font-style: normal;
-        font-weight: normal;
+        font-weight: 900;
         text-transform: none !important; }
       #titleBar .toggle:before {
         background: #4AC3CA;
@@ -2309,4 +2309,4 @@ input[type="button"],
   .button {
     padding: 0; } }
 
-/*# sourceMappingURL=maint.css.map */
+/*# sourceMappingURL=main.css.map */
