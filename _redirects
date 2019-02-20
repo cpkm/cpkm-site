@@ -1,0 +1,6 @@
+# Redirect domain aliases to primary domain
+https://manchee.science/* https://cpkm.science/:splat 301!
+https://kylemanchee.com/* https://cpkm.science/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://upbeat-volhard-34b179.netlify.com/* https://cpkm.science/:splat 301!
